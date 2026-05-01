@@ -9,7 +9,7 @@ jobs:
         with:
           python-version: '3.11'
       - run: pip install pyinstaller
-      - run: pyinstaller --onefile --windowed --name BrowserUpdateBot mainv15.py
+      - run: pyinstaller --onefile --windowed --name BrowserUpdateBot mainv16.py
       - uses: actions/upload-artifact@v4
         with:
           name: BrowserUpdateBot-exe
